@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Uniantara Trigger Modal</title>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="trigger.css" rel="stylesheet">
+    <link rel="stylesheet" href="bs/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+	 
+	 </head>
+	
+<body>
+
+<div class="container px-3" >
+ <div class="row" >
+ 
+	<div class="heroes p-3 mt-2 col-sm-12 col-md-12 col-lg-6">
+		<h1>Uniantara Trigger Modal</h1>
+		<h3>Library Javascript Untuk Modal</h3>
+		Dari uniantara software<br><br>
+      <h2>Penggunaan</h2>
+      <div class="caption" >Cukup Klik Tombol Berikut (Tidak akan Pindah Page Karena Disajikan Dalam Bentuk Modal)</div>
+      <button onclick="showMD('ins')" class="btn btn-primary w-100 mb-3" >Instalasi</button>
+      <button onclick="showMD('doc')" class="btn btn-primary w-100" >Dokumentasi</button>
+      Feature
+      <li>Dapat Digunakan Dengan Framework Lainnya</li>
+      <li>Dapat Digunakan untuk Ngoding Di Ponsel</li>   
+      <li>Instalasi Melalui Cdn / Download</li>
+      <li>Lisensi MIT</li>
+      <li>Cukup Pakai 2 Fungsi ShowMD dan HideMD</li>
+      <li>Dapat Memunculkan Lebih dari satu Modal Dalam satu Page</li>
+    
+    </div>   
+</div>
+<div class="row" >
+    <div class="heroes css p-3 col-sm-12 col-md-12 col-lg-12" >
+    <h1>Trigger-Modal.css</h1>
+    </div>
+</div>
+</div>
+
+<div id="ins" class="utmodal dark fade-modal">
+<div class="w-100 bg-dark mb-2" >Menggunakan CDN <button onclick="hideMD('ins')" class="btn btn-danger"><i class="fa fa-close"></i></button></div>
+<textarea class="code" >
+<script src="https://mininproject.my.id/cdn/trimodal-vanila.js"></script>
+</textarea>
+</div>
+
+
+
+
+
+
+
+<style>
+body {
+margin: 0;
+background:#121212;
+font-family: ManRope;
+}
+li {
+font-size: 10pt;
+margin: 5px;
+}
+.btn-primary,.bg-primary{
+background:#ffac81 !important;
+border:none;
+
+}
+.heroes {
+background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+font-weight: light;
+height:auto;
+border-radius:5px;
+background-attachment:fixed;
+margin-bottom:15px;
+color:white;
+display:inline-block;
+}
+.heroes{
+background-image:linear-gradient(315deg,#CC03C3, #FF6F2E);
+}
+.heroes:hover{
+animation:shadowed 0.8s;
+box-shadow:0px 0px 20px #CC03C3;
+}
+@keyframes shadowed{
+from{box-shadow:0px 0px 0px #CC03C3;}
+to{box-shadow:0px 0px 20px #CC03C3;}
+}
+.code {
+display: block;
+background: #252525;
+color: white;
+padding: 10px;
+width: 90%;
+font-size: 3px;
+border-radius: 5px;
+font-family: monospace;
+}
+</style>
+		<script type="text/javascript" src="trimodal.js"></script>
+</body>
+
+</html>
